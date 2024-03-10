@@ -23,7 +23,7 @@ const columns = [
     },
 ];
 
-const Dashboard = () => {
+const dashboard = () => {
     const [searchInput, setSearchInput] = useState("");
 
     const {
@@ -127,4 +127,4 @@ const Dashboard = () => {
     );
 };
 
-export default Dashboard;
+export default dashboard;
